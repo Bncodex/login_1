@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./img/IMG1.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgb(pink);
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    backdrop-filter: blur(15px);
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 25px;
+    outline: none;
+    font-size:16px;
+    color: rgba(255, 255, 255, 0.646);
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.567);
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 24%;
+}
+.esqueci-senha{
+    display: flex;
+    justify-content: space-between;
+    margin:-15px 0 10px ;
+}
+
+.esqueci-senha label input{
+    accent-color: rgb(160, 58, 255);
+}
+
+.esqueci-senha a{
+    text-decoration:none;
+    color:rgba(255, 0, 191, 0.913) ;
+}
+
+.esqueci-senha a:hover{
+    text-decoration: underline;
+}
+ 
+.login{
+    width: 100%;
+    height: 50px;
+    background-color:#FFF ;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size:16px ;
+    color:#000000;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 10px;
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.567);
+    transition: 0.5s;
+}
+
+.Cadastro{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+
+.Cadastro a{
+    text-decoration: none;
+    color: rgba(255, 0, 191, 0.913);
+    font-weight: 600;
+}
+
+.Cadastro a:hover{
+    text-decoration: underline;
+}
+.weatherwidget-io {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+
+
+
