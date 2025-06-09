@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastre-se</title>
+
+  
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  
+  <style>
+    * {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form-box {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+      width: 320px;
+    }
+
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .form-box p {
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+
+    .form-box input[type="text"],
+    .form-box input[type="password"],
+    .form-box input[type="email"],
+    .form-box input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+
+    .form-box input[type="submit"] {
+      background-color: blue;
+      color: black;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .form-box input[type="submit"]:hover {
+      background-color: blueviolet;
+    }
+
+    .back-link {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 20px;
+      text-decoration: none;
+      color: #333;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <a class="back-link" href="index.html"><i class='bx bx-arrow-back'></i> Voltar</a>
+
+  <form class="form-box">
+    <h2>Cadastro</h2>
+
+    <p>Nome: <input type="text" name="nome" id="nome" required></p>
+    <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome" required></p>
+    <p>Email: <input type="email" name="email" id="email" required></p>
+    <p>Nova senha: <input type="password" name="senha" id="senha" required></p>
+    <p>Confirmação senha: <input type="password" name="confirmacao" id="confirmacao" required></p>
+
+    <p><input type="submit" value="Cadastre-se"></p>
+  </form>
+
+</body>
+</html>
